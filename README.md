@@ -6,8 +6,6 @@
 
 OWIE is a clean cybersecurity/admin terminal network monitoring dashboard for people who want to know what's going on in their network. OWIE discovers the devices connected to your network, tracks them over time, and gives you a live terminal dashboard to keep an eye on who's online. It won't disconnect anyone by itself — see [A note on removing devices](#a-note-on-removing-devices) below for why, and what it does instead.
 
-### Screenshot
-
 ![OWIE terminal dashboard](images/terminal.png)
 
 ### Features
