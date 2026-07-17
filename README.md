@@ -10,7 +10,7 @@ OWIE is a clean cybersecurity/admin terminal network monitoring dashboard for pe
 
 ### Features
 
-- Live terminal dashboard (Rich-based, refreshes without breaking your typing)
+- Live terminal dashboard (Rich-based)
 - Network device discovery (ping sweep + ARP table)
 - MAC address and vendor detection
 - JSON device history (persists across restarts)
