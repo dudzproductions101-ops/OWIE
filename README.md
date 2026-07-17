@@ -4,7 +4,7 @@
 
 ### About
 
-OWIE is a clean cybersecurity/admin terminal network monitoring dashboard for people who want to know what's going on in their network. OWIE discovers the devices connected to your network, tracks them over time, and gives you a live terminal dashboard to keep an eye on who's online. It won't disconnect anyone by itself — see [A note on removing devices](#a-note-on-removing-devices) below for why, and what it does instead.
+OWIE is a clean cybersecurity/admin terminal network monitoring dashboard for people who want to know what's going on in their network. OWIE discovers the devices connected to your network, tracks them over time, and gives you a live terminal dashboard to keep an eye on who's online.
 
 ![OWIE terminal dashboard](images/terminal.png)
 
@@ -83,12 +83,6 @@ OWIE_NEW/
 
 - `exit`  
   Quit OWIE.
-
-### A note on removing devices
-
-OWIE can't disconnect a device from your network by itself, and won't add that feature — not because of a permission or admin-level check, but because the only way to force another device off WiFi is to send it forged deauth or ARP-spoofing packets, which is an attack technique regardless of who's running it or why. Local admin rights on your PC don't change that; they're a different permission system from control over the network, and don't grant authority over other devices' connections.
-
-The real "remove a device" feature already exists — on your router, gatekept by its own admin login. That's the tool actually designed for it. `device kick <name>` gets you there quickly: it opens your router's admin page and hands you the device's IP and MAC so you can block it in a couple of clicks.
 
 ### Quick start
 
