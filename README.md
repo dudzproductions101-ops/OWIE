@@ -1,7 +1,7 @@
 # OWIE
 
 ![OWIE Logo](images/Logo.png)
-
+ 
 ### About
 
 OWIE is a clean cybersecurity/admin terminal network monitoring dashboard for people who want to know what's going on in their network. OWIE discovers the devices connected to your network, tracks them over time, and gives you a live terminal dashboard to keep an eye on who's online.
